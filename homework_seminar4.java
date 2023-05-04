@@ -1,5 +1,5 @@
 // Программа для реализации операции вставки в красно-черном дереве.
-import java.util.Scanner;
+
 
 class node {
 
@@ -25,6 +25,7 @@ public class LLRBTREE {
 
   // Функция для поворота узла против часовой стрелки.
   node rotateLeft(node myNode) {
+    java.lang.Object System;
     System.out.printf("поворот влево!!\n");
     node child = myNode.right;
     node childLeft = child.left;
